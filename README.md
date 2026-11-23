@@ -100,7 +100,6 @@ Investigate whether changes in transcript expression, poly(A) tail length, and m
 
 ## A suggested organization for the project is:
 ```text
-.
 ├── README.md
 │
 ├── data/
