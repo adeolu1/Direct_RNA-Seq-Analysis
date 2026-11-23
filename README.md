@@ -2,9 +2,9 @@
 This repository contains the workflows and downstream analyses used to investigate transcriptomic changes through Oxford Nanopore Technologies (ONT) direct RNA sequencing.
 
 ## The analysis integrates three major layers of RNA regulation:
-a. Differential transcript expression – identification of differentially expressed transcripts.
-b. Differential poly(A) tail length – characterization of changes in transcript polyadenylation.
-c. Differential m6A modification – identification and characterization of differential N6-methyladenosine (m6A) modifications.
+- Differential transcript expression – identification of differentially expressed transcripts.
+- Differential poly(A) tail length – characterization of changes in transcript polyadenylation.
+- Differential m6A modification – identification and characterization of differential N6-methyladenosine (m6A) modifications.
 
 The three analytical layers were subsequently integrated to identify overlapping molecular changes. Finally, the results were compared with independent transgenerational analysis results to investigate shared molecular signatures.
 
@@ -99,7 +99,8 @@ Investigate whether changes in transcript expression, poly(A) tail length, and m
 - Functional enrichment of overlapping genes.
 
 ## A suggested organization for the project is:
-´´´
+```text
+.
 ├── README.md
 │
 ├── data/
@@ -133,7 +134,7 @@ Investigate whether changes in transcript expression, poly(A) tail length, and m
     ├── polya_tail_length/
     ├── m6a_modification/
     └── integration/
-´´´
+```
 ### Reproducibility
 The analyses were conducted using a combination of command-line bioinformatics tools and R-based statistical analyses.
 
